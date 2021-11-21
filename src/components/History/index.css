@@ -1,0 +1,47 @@
+.user-li-container {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+  }
+  .name {
+    font-size: 18px;
+    font-family: bree serif;
+    margin-right: 15px;
+  }
+  .user-row-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .delete-btn {
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    outline: none;
+    width: 8%;
+  }
+  .delete-img {
+    width: 20px;
+    height: 20px;
+  }
+  .input-container {
+    width: 20px;
+    height: 20px;
+  }
+  .selected-checkbox {
+    background-color: gray;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .user-li-container {
+      width: 100%;
+    }
+  }
+  .width {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+  }
+  
